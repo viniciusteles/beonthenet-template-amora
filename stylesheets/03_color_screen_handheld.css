@@ -85,29 +85,8 @@ h4 a:focus, h4 a:hover, h4 a:active {
 
 #header li a:hover {	
 	color:                  #000;
+	background:             #DD137B no-repeat center;
 }
-
-#header li.best_galleries a:hover {
-	background:             url(../images/menu_melhores.gif) no-repeat center;
-}
-
-#header li.full_galleries a:hover {
-	background:             url(../images/menu_albuns.gif) no-repeat center;
-}
-
-#header li.all_videos a:hover {
-	background:             url(../images/menu_videos.gif) no-repeat right center;
-}
-
-#header li.quem_somos a:hover {
-	background:             url(../images/menu_quemsomos.gif) no-repeat right center;
-}
-
-#header li.contact a:hover {
-	background:             url(../images/menu_contato.gif) no-repeat right center;
-}
-
-
 /* /Header tabbed menu */
 
 
