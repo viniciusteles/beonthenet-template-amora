@@ -1,5 +1,4 @@
-﻿
-html * {
+﻿html * {
 	padding:                0;
 	border:                 none;
 	margin:                 0 auto;
@@ -13,8 +12,7 @@ label, img  {
 
 body {
 	padding:                0;
-	margin:                 0;
-	
+	margin:                 0;	
 }
 
 #header, #main_content, #footer {
@@ -80,15 +78,6 @@ body.instructions h2 { position: static !important; }
 #header li a {
   padding:                		6px;
 }
-
-body.best_galleries #header li.best_galleries, 
-body.full_galleries #header li.full_galleries, 
-body.all_videos #header li.all_videos, 
-body.quem_somos #header li.quem_somos, 
-body.contact #header li.contact, 
-body.blog #header li.blog {
-  
-}
 /* /Header tabbed menu */
 
 
@@ -111,23 +100,12 @@ body.blog #header li.blog {
 	padding-left:           20px;
 }
 
-
-
 #main_content h2 {
 	margin-bottom:          5px;
 }
 
 #main_content h1 {
 	padding-bottom:          20px;
-}
-
-body.best_galleries #main_content h2 {
-	top:					150px;
-}
-
-
-body.best_galleries #main_content h1 {
-	top:					170px;
 }
 
 body#selection h1 {
@@ -260,8 +238,6 @@ body.videos #thumbnails img {
   margin:                 0 0 1em 0;
 }
 
-
-
 #data_sheet dt {
 	float:                  left;
 	clear:                  left;
@@ -370,8 +346,6 @@ body.videos #thumbnails img {
 	z-index:                2;
 }
 
-
-
 #all_pictures li, #cart_items li, #selected_pictures li {
 	float:                  left;
 	width:                  75px;
@@ -417,7 +391,6 @@ body.videos #thumbnails img {
 	cursor:                 move;
 }
 
-
 body#selection #selection_size {
   float:                  right;
   margin-right:           -21.55em;
@@ -433,12 +406,10 @@ body#selection #selection_size label {
 	visibility:             visible;
 }
 
-body#checkout #selection_size,
-body#pictures_sent #selection_size {
+body#checkout #selection_size {
   margin-bottom:          20px;
 }
-body#checkout #selection_size label,
-body#pictures_sent #selection_size label, 
+body#checkout #selection_size label, 
 body#search #search_result_count label {
   display:                inline;
   margin:                 0;
@@ -532,8 +503,7 @@ button * {
 }
 
 /* Specific for checkout e-mail form */
-body#checkout #order_form p,
-body#pictures_sent #order_form p {
+body#checkout #order_form p {
   padding-left:            1.75em;
 }
 
@@ -647,8 +617,6 @@ body > #facebox {
  	margin-top:				20px;
  	display:				block;
 }
-
-
 /* /Footer */
 
 
