@@ -309,11 +309,11 @@ body#selection #selection_size label {
 	color:					#000;
 }
 
-body.best_galleries #first {
+body#selection #first.go_to_checkout {
 	background:             transparent url(../images/shopping_cart.gif) no-repeat right center;
 }
 
-body.best_galleries #second {
+body#selection #second.go_to_checkout {
 	background:             transparent url(../images/shopping_cart_second.gif) no-repeat right center;
 }
 
