@@ -142,6 +142,11 @@ ul#thumbnails h3 {
   left:                   0;
 }
 
+ul#thumbnails h4 {
+  position:               relative;
+  top:                    .5em;
+}
+
 ul#thumbnails li div {
 	position:               relative;
 }
@@ -408,10 +413,12 @@ body#selection #selection_size label {
 	visibility:             visible;
 }
 
-body#checkout #selection_size {
+body#checkout #selection_size, 
+body#pictures_sent #selection_size {
   margin-bottom:          20px;
 }
 body#checkout #selection_size label, 
+body#pictures_sent #selection_size label, 
 body#search #search_result_count label {
   display:                inline;
   margin:                 0;
@@ -460,8 +467,8 @@ body#search #search_result_count label {
 
 /* Forms (contact, checkout, search) */
 label {
-	display:                block;
-	width:                  29%;
+  display:                block;
+  width:                  29%;
 	margin-top:             .2em;
 	margin-right:           1em;
 }
@@ -471,10 +478,9 @@ input, textarea {
 	width:                  40%;
 	padding:                0 .3em;
 	border:                 2px solid;
-  	margin:                 -1.25em 0 .75em 18em;
+  margin:                 -1.25em 0 .75em 18em;
+  outline:                none;
 }
-
-
 
 button {
 	display:                block;
@@ -505,7 +511,8 @@ button * {
 }
 
 /* Specific for checkout e-mail form */
-body#checkout #order_form p {
+body#checkout #order_form p, 
+body#pictures_sent #order_form p {
   padding-left:            1.75em;
 }
 
