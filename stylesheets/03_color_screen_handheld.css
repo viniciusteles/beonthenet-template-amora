@@ -82,7 +82,7 @@ h4 a:focus, h4 a:hover, h4 a:active {
 	color:					#fff;
 }
 
-#header li a:hover {	
+#header li a:hover, #header li.current a {	
 	color:                  #000;
 	background:             #DD137B no-repeat center;
 }
