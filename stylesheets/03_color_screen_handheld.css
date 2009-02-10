@@ -402,6 +402,10 @@ body.application #main_content h2 {
 	background:             url(../images/error_404.gif) no-repeat center top;
 }
 
+body.application #main_content h3 {
+  color:                  #CB096D;
+}
+
 body#server_error #main_content h2 {
 	background-image:       url(../images/error_500.gif);
 }
