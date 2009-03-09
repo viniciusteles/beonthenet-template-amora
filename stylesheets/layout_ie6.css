@@ -1,5 +1,6 @@
 /* Style sheet with conditions for IE6. */
 body {
+  position:               relative;
 	overflow:               hidden;
 }
 
@@ -12,8 +13,13 @@ body {
 }
 
 ul#thumbnails {
-  margin-right:           -60px;	
-  width:				  960px;
+  width:				        960px;
+  margin-right:         -60px;	
+  margin-left:          -30px !important;
+}
+
+ul#thumbnails li {
+  margin:               2.5em 35px 2em 18px;
 }
 
 #all_pictures li, #cart_items li {
