@@ -65,6 +65,12 @@ body.instructions h2 { position: static !important; }
 	text-decoration:        none;
 }
 
+#slogan {
+  position:               absolute;
+  bottom:                 50px;
+  left:                   30px;
+}
+
 #header ul {
   position:               		absolute;
   right:                  		20px;

@@ -57,6 +57,11 @@ h3 a:focus, h3 a:hover {
   	word-spacing:           1em;
 }
 
+#slogan {
+  font-weight:              normal;
+  font-size:                90%;
+}
+
 #header li {
   	font-size:             	18px;
 }
