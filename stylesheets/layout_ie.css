@@ -17,6 +17,9 @@ ul#thumbnails li div span.ie {
 	vertical-align:         middle;
 	height:                 100%;
 }
+ul#thumbnails li div img {
+	vertical-align:         middle;
+}
 
 .second {
   bottom:                 40px;
