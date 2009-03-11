@@ -264,7 +264,7 @@ body#selection #selection_size label {
 	border-color:           #f5f5f4;
 }
 
-#cart_items.text {
+#cart_items.instructions {
 	background:             #fff url(../images/selection_instructions.gif) no-repeat center center;	
 }
 
