@@ -41,7 +41,7 @@ a {
 	outline:                none;
 }
 
-body.text h2 { position: static !important; }
+.text h2 { position: static !important; }
 
 /* Header tabbed menu */
 #header {
@@ -620,27 +620,27 @@ body > #facebox {
 
 
 /* Text */
-body.text #main_content {
+.text #main_content {
 /*  border:1px solid red;*/
   width:                  560px;
   padding-right:          200px;
   padding-left:           200px;
 }
 
-body.text #main_content p {
+.text #main_content p {
   margin:                 1em 0;
 }
 
-body.text dt {
+.text dt {
   float:                  left;
   margin-right:           .5em;
 }
 
-body.text #main_content cite {
+.text #main_content cite {
   display:                block;
 }
 
-body.text #toc {
+.text #toc {
   float:                  left;
   padding:                .75em .75em .75em 1.5em;
   border:                 1px solid;
