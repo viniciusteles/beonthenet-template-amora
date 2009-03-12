@@ -626,6 +626,13 @@ body > #facebox {
   padding-left:           200px;
 }
 
+.text #summary {
+  padding-right:          170px;
+  padding-left:           170px;
+  margin-right:           -170px;
+  margin-left:            -170px;
+}
+
 .text #main_content p {
   margin:                 1em 0;
 }
