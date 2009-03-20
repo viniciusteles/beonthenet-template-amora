@@ -1,7 +1,10 @@
 /* Style sheet with conditions for IE6. */
 body {
+  width:                  960px;
+  margin:                 0 auto;
   position:               relative;
 	overflow:               hidden;
+  background:             none;
 }
 
 #header ul {
@@ -76,4 +79,11 @@ body#selection #selection_size {
 #data_sheet dd {
 	margin-left:	30px;
 	text-align:		left;
+}
+
+#footer {
+  height:               100px;
+  padding-top:          90px;
+	background:           url(../images/bg-bottom.gif) repeat-x top;
+	margin-top:           -90px;
 }

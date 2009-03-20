@@ -12,7 +12,8 @@ label, img  {
 
 body {
 	padding:                0;
-	margin:                 0;	
+	margin:                 0;
+ 	margin-bottom:          30px;
 }
 
 #header, #main_content, #footer {
