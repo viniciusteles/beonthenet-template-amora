@@ -218,7 +218,7 @@ body.videos #thumbnails img {
 
 /* Paging */
 .pages {
-  clear:both;
+  clear:                  both;
   padding:                1px 20px 5px 20px;
   margin:                 5px 0;
 }
@@ -228,8 +228,8 @@ body.videos #thumbnails img {
 }
 
 .pages strong {
-	position:               relative;
-	top:                    .15em;
+/*  position:               relative;*/
+/*  top:                    .15em;*/
 }
 
 .pages a.previous {
