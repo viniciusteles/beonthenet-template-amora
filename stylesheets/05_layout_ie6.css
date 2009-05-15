@@ -89,6 +89,6 @@ body#selection #selection_size {
 #footer {
   height:               100px;
   padding-top:          90px;
-	background:           url(../images/bg-bottom.gif) repeat-x top;
-	margin-top:           -90px;
+  background:           url(../images/bg-bottom.gif) repeat-x top;
+  margin-top:           -40px;
 }

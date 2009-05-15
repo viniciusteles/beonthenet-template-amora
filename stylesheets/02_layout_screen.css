@@ -472,6 +472,24 @@ input, textarea {
   outline:                none;
 }
 
+input.rsvp_confirmation {
+  display:                inline;
+  width:                  auto;
+  padding:                0;
+  border:                 none;
+  margin-top:             0;
+  margin-bottom:          0;
+}
+
+#confirmation_yes, #confirmation_no {
+  display:                inline;
+  line-height:            3em;
+}
+
+#message_confirmation_no {
+  margin-left:            3em;
+}
+
 button {
 	display:                block;
   padding:                .2em .5em;
