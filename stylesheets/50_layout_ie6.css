@@ -11,10 +11,6 @@ body {
 	bottom:                 -1px;
 }
 
-#go_to_selection a {
-	padding-top:            20px;
-}
-
 ul#thumbnails li {
   margin-right:           22px;
   margin-left:            22px;
@@ -38,7 +34,7 @@ body.videos #thumbnails img {
 }
 
 #go_to_selection a {
-	line-height:            1.3em;
+	padding-top:            20px;
 }
 
 #cart_items {
@@ -90,5 +86,5 @@ body#selection #selection_size {
   height:               100px;
   padding-top:          90px;
   background:           url(../images/bg-bottom.gif) repeat-x top;
-  margin-top:           -40px;
+  margin-top:           -25px;
 }
