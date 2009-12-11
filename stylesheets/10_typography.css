@@ -114,7 +114,7 @@ ul#thumbnails a img {
 
 
 /* Link to Selection */
-#go_to_selection a {
+#go_to_selection {
   line-height:				27px;
   line-height:            1.5em;
 }
