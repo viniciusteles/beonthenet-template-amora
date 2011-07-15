@@ -59,6 +59,7 @@ a {
   padding:                3px 2px;
 
   background:             #1F1A17;
+                                                    display:none;
 }
 
 #social_network p {
@@ -85,7 +86,7 @@ a {
 #header {
   min-height:             128px;
   height:                 128px;
-s  width:                  900px;
+  width:                  900px;
   position:               relative;
 }
 
