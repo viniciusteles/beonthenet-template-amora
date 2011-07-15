@@ -51,11 +51,41 @@ a {
 }
 
 
+/* Social network */
+#social_network {
+  text-align:             right;
+
+  display:                block;
+  padding:                3px 2px;
+
+  background:             #1F1A17;
+}
+
+#social_network p {
+  width:                  900px;
+  height:                 16px;
+}
+
+#social_network a {
+  margin-left:            3px;
+}
+#social_network a:first-child {
+  float:                  left;
+  margin:                 0;
+
+  opacity:                .4;
+}
+#social_network a:first-child:hover {
+  opacity:                1;
+}
+/* /Social network */
+
+
 /* Header tabbed menu */
 #header {
   min-height:             128px;
   height:                 128px;
-  width:                  900px;
+s  width:                  900px;
   position:               relative;
 }
 
@@ -582,7 +612,7 @@ body#pictures_sent #order_form p {
 	width:                  202px;
 	padding-left:           15px;
 	position:               absolute;
-	top:                    99px;
+  top:                    99px;
 	right:                  30px;
 	height:					31px;
 }
