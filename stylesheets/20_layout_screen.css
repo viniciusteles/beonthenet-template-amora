@@ -136,9 +136,12 @@ a {
   box-shadow:                       0 1px 1px rgba(0, 0, 0, .75);
 }
 
-/* Se a barra aparece, insira estes dois seletores no acc do cliente: */
+/* Se a barra aparece, insira estes três seletores no acc do cliente, e aponte a url para /templates/beonthenet-template-amora/images/nomedaimagem.png : */
 html {
 /*  background:                       #dededd url(../images/bg.png) repeat-x top !important;*/
+}
+body {
+/*  background:                       transparent url(../images/bg-bottom.png) repeat-x bottom !important;*/
 }
 .social_media {
 /*  display:                          block;*/
