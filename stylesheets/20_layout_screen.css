@@ -81,24 +81,6 @@ a {
 }
 /* /Social network */
 
-
-/* Big picture social sharing */
-#big_picture #social_sharing, #big_video #social_sharing {
-  width:                            40px;
-  position:                         absolute;
-  top:                              82px;
-  right:                            43px;
-  display:                                                                                none;
-}
-#big_picture #social_sharing > iframe, #big_picture #social_sharing > div, 
-#big_video #social_sharing > iframe, #big_video #social_sharing > div {
-  margin:                           0 0 20px;
-}
-#big_picture #social_sharing > div:last-child {
-  margin:                           30px 0 0;
-}
-/* /Big picture social sharing */
-
  
 /* Social media */
 html {
@@ -167,6 +149,29 @@ body {
   box-shadow:                       0 1px 1px rgba(0, 0, 0, .75);
 }
 /* /Social media */
+
+
+/* Big picture social sharing */
+#big_picture #social_sharing, #big_video #social_sharing {
+  width:                            40px;
+  position:                         absolute;
+  top:                              3px;
+  right:                            -10px;
+}
+#big_picture #social_sharing > iframe, #big_picture #social_sharing > div, 
+#big_video #social_sharing > iframe, #big_video #social_sharing > div {
+  margin:                           0 0 17px;
+}
+#big_picture #social_sharing > iframe:first-child {
+  margin-bottom:                    95px;
+}
+#big_picture #social_sharing > div:last-child {
+  margin:                           27px 0 0;
+}
+#big_picture #social_sharing div a, #big_video #social_sharing div a {
+  top:                              0;
+}
+/* /Big picture social sharing */
 
 
 /* Header tabbed menu */
@@ -453,13 +458,14 @@ body.videos #thumbnails img {
 #big_picture a, #big_video a {
 	width:                  24px;
   position:               absolute;
-	top:                    70px;
+	top:                    82px;
+	z-index:                1;
 }
 #big_picture #previous, #big_video #previous {
-  left:                   0;
+  left:                   6px;
 }
 #big_picture #next, #big_video #next {
-  right:                  0;
+  right:                  6px;
 }
 
 #big_picture a span, #big_video a span {
