@@ -169,6 +169,7 @@ body {
   margin:                           27px 0 0;
 }
 #big_picture #social_sharing div a, #big_video #social_sharing div a {
+  position:                         relative;
   top:                              0;
 }
 /* /Big picture social sharing */
