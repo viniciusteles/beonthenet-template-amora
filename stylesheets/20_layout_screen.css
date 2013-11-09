@@ -151,30 +151,6 @@ body {
 /* /Social media */
 
 
-/* Big picture social sharing */
-#big_picture #social_sharing, #big_video #social_sharing {
-  width:                            40px;
-  position:                         absolute;
-  top:                              3px;
-  right:                            -10px;
-}
-#big_picture #social_sharing > iframe, #big_picture #social_sharing > div, 
-#big_video #social_sharing > iframe, #big_video #social_sharing > div {
-  margin:                           0 0 17px;
-}
-#big_picture #social_sharing > iframe:first-child {
-  margin-bottom:                    95px;
-}
-#big_picture #social_sharing > div:last-child {
-  margin:                           27px 0 0;
-}
-#big_picture #social_sharing div img, #big_video #social_sharing div img {
-  padding:                          0;
-  border:                           none;
-}
-/* /Big picture social sharing */
-
-
 /* Header tabbed menu */
 #header {
   min-height:             128px;
@@ -462,6 +438,8 @@ body.videos #thumbnails img {
   position:               absolute;
 	top:                    82px;
 	z-index:                1;
+
+	color:					        #dededd;
 }
 #big_picture #previous, #big_video #previous {
   left:                   6px;
@@ -476,11 +454,24 @@ body.videos #thumbnails img {
 	height:                 60px;
 	position:               absolute;
 }
+#big_picture #previous span, #big_video #previous span {
+	background:             url(../images/arrow_previous.gif) no-repeat center right;
+}
+#big_picture #previous:hover span, #big_video #previous:hover span {
+	background:             url(../images/arrow_previous_hover.gif) no-repeat center right;
+}
+#big_picture #next span, #big_video #next span {
+	background:             url(../images/arrow_next.gif) no-repeat center left;
+}
+#big_picture #next:hover span, #big_video #next:hover span {
+	background:             url(../images/arrow_next_hover.gif) no-repeat center left;
+}
 
 #big_picture img {
   padding:                2px;
-  border-width:           1px;
-  border-style:           solid;
+  border:                 1px solid #EBEBEB;
+
+  color:                  #ebebeb;
 }
 
 #big_picture label {
@@ -490,11 +481,14 @@ body.videos #thumbnails img {
 	bottom:                 -6px;
 	right:                  43.5%;
 	left:                   43.5%;
+
+  border:				          1px solid #ebebeb;
+  background:             #fff;
 }
 
 #big_video object {
-  max-width:            800px;
-  max-height:           450px;
+  max-width:              800px;
+  max-height:             450px;
 }
 
 #big_video object p {
@@ -509,12 +503,38 @@ body.videos #thumbnails img {
 
 #big_video label span {
   display:                block;
+
+  background:             none;
 }
 
 #big_video object a {
   position:               static;
 }
 /* /Big picture, big video */
+
+
+/* Big picture social sharing */
+#big_picture #social_sharing, #big_video #social_sharing {
+  width:                            40px;
+  position:                         absolute;
+  top:                              3px;
+  right:                            -10px;
+}
+#big_picture #social_sharing > iframe, #big_picture #social_sharing > div, 
+#big_video #social_sharing > iframe, #big_video #social_sharing > div {
+  margin:                           0 0 17px;
+}
+#big_picture #social_sharing > iframe:first-child {
+  margin-bottom:                    95px;
+}
+#big_picture #social_sharing > div:last-child {
+  margin:                           27px 0 0;
+}
+#big_picture #social_sharing div img, #big_video #social_sharing div img {
+  padding:                          0;
+  border:                           none;
+}
+/* /Big picture social sharing */
 
 
 /* Tags */
